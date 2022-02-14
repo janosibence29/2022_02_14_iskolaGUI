@@ -52,6 +52,7 @@ namespace iskolagui2
             this.btnBetöltés.TabIndex = 1;
             this.btnBetöltés.Text = "Betöltés";
             this.btnBetöltés.UseVisualStyleBackColor = true;
+            this.btnBetöltés.Click += new System.EventHandler(this.btnBetöltés_Click);
             // 
             // btnMentés
             // 
@@ -70,6 +71,7 @@ namespace iskolagui2
             this.btnTörlés.TabIndex = 3;
             this.btnTörlés.Text = "Törlés";
             this.btnTörlés.UseVisualStyleBackColor = true;
+            this.btnTörlés.Click += new System.EventHandler(this.btnTörlés_Click);
             // 
             // btnKilépés
             // 
@@ -79,6 +81,7 @@ namespace iskolagui2
             this.btnKilépés.TabIndex = 4;
             this.btnKilépés.Text = "Kilépés";
             this.btnKilépés.UseVisualStyleBackColor = true;
+            this.btnKilépés.Click += new System.EventHandler(this.btnKilépés_Click);
             // 
             // Form1
             // 
